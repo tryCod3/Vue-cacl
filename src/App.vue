@@ -1,11 +1,22 @@
 <template>
-	<h1 class="text-pink-400">asd</h1>
+	<div class="container">
+		<Cacl />
+	</div>
 </template>
 
 <script>
 export default {
 	name: "App",
+	components: {
+		Cacl: () => import("@/view/CaclView.vue"),
+	},
 };
 </script>
 
-<style></style>
+<style>
+* {
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+}
+</style>
