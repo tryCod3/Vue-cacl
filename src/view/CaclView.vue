@@ -1,5 +1,9 @@
 <template>
 	<section class="flex flex-col w-80 cacl__view">
+		<div class="flex justify-around">
+			<h3>Casino</h3>
+			<h4>Fx - 570ES Plus</h4>
+		</div>
 		<header class="bg-amber-100 cacl__view__header">
 			<CaclDisplayComp />
 		</header>
@@ -29,6 +33,7 @@ export default {
 <style>
 .cacl__view {
 	margin: auto !important;
+	background: #b8acac;
 }
 .cacl__view__header {
 	padding: 1rem !important;

@@ -19,4 +19,8 @@ export default {
 	padding: 0 !important;
 	box-sizing: border-box !important;
 }
+.container {
+	height: 100vh;
+	display: flex;
+}
 </style>
