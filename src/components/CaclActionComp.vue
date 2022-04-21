@@ -3,7 +3,7 @@
 		<div
 			v-for="i in actionType"
 			:key="i"
-			class="bg-indigo-500 text-white text-center rounded-lg hover:bg-violet-600"
+			class="bg-indigo-500 text-white text-center rounded-lg hover:bg-violet-60"
 			@click="setCacl(i)"
 		>
 			{{ i }}
@@ -49,4 +49,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.cacl-action {
+	padding: 10px !important;
+}
+</style>
